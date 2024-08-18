@@ -35,7 +35,7 @@ const About = () => {
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className='text-inherit'>
-                                View My Resume
+                                My Resume
                             </a>
                         </button>
 
