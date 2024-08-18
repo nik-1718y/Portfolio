@@ -28,7 +28,18 @@ const About = () => {
                         </p>
                         
                     </div>
-                    
+                    <div>
+                        <button className='font-bold border border-neutral-50 rounded bg-neutral-900 px-2 py-1 text-neutral-50 hover:bg-white hover:text-neutral-900'>
+                            <a 
+                                href="/AmarGuptaResume.pdf" 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className='text-inherit'>
+                                View My Resume
+                            </a>
+                        </button>
+
+                    </div>
             </motion.div>
         </div>
     </div>
