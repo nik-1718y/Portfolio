@@ -74,7 +74,7 @@ export default function Navbar() {
         </ul>
 
         <div className='flex ml-auto md:hidden pt-2'>
-          <MenuIcon onClick={toggleDrawer(true)} className='text-neutral-50' />
+          <MenuIcon onClick={toggleDrawer(true)} className='text-neutral-50 mt-3' />
           <Drawer anchor={'left'} open={drawerOpen} onClose={toggleDrawer(false)}>
             {drawerList()}
           </Drawer>
