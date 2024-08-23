@@ -22,7 +22,7 @@ const Contact = () => {
         whileInView={{opacity:1, x:0}}
         initial={{opacity:0, x:-100}}
         transition={{duration:1}}
-        className='w-full md:w-1/2 mb-10 md:mb-0 xl:ml-20'>
+        className='w-full md:w-1/2 sm:mb-10 md:mb-0 xl:ml-20'>
           <div className='text-white mb-6'>
             <div className='flex items-center'>
               <FaUser className='text-2xl'/>

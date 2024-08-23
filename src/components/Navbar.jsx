@@ -65,7 +65,7 @@ export default function Navbar() {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className='text-neutral-50 inline-block mx-2 px-6 py-2 duration-200 hover:bg-neutral-300 hover:text-neutral-950 focus:border border-neutral-100 rounded-full cursor-pointer'
+                className='text-neutral-50 inline-block mx-1 lg:mx-2 px-6 py-2 duration-200 hover:bg-neutral-300 hover:text-neutral-950 focus:border border-neutral-100 rounded-full cursor-pointer'
               >
                 {item.name}
               </Link>
