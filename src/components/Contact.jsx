@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id='contact' className='pb-20 px-4 md:px-8 lg:px-16'>
+    <div id='contact' className='pb-20 px-2 sm:px-4 md:px-8 lg:px-16'>
       <motion.h1 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
