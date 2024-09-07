@@ -7,6 +7,9 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 import {animate, motion} from 'framer-motion'
 import { SiRedux } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { BiLogoMongodb } from "react-icons/bi";
 
 const Technologies = () => {
     const iconMotions = (duration)=>({
@@ -83,6 +86,30 @@ const Technologies = () => {
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <RiTailwindCssFill className='text-7xl text-cyan-300'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconMotions(3.5)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <FaNode className='text-7xl text-green-500'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconMotions(6)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiExpress className='text-7xl text-neutral-100'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconMotions(2)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <BiLogoMongodb className='text-7xl text-green-700'/>
             </motion.div>
         </motion.div>
     </div>

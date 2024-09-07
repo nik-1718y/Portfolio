@@ -1,7 +1,7 @@
 import React from 'react'
 import Blog_Web_App from '../assets/Projects/Blog_Web_App.png'
 import calculator from '../assets/Projects/Calculator.png'
-import clock from '../assets/Projects/Clock.png'
+import Todo from '../assets/Projects/Todo.png'
 import {motion} from 'framer-motion'
 import {Link} from 'react-router-dom'
 
@@ -59,6 +59,33 @@ const Project = () => {
                 </motion.div>
                 
             </div>
+            <div key="Todo" className='mb-8 flex flex-wrap lg:justify-center'>
+                <motion.div 
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:-100}}
+                transition={{duration:1}}
+                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
+                    <img className='shadow-md shadow-neutral-100' height={200} width={200} src={Todo} alt="Clock" />
+                </motion.div>
+                <motion.div 
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:100}}
+                transition={{duration:1}}
+                className="w-full max-w-full lg:w-3/4">
+                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://todo-nine-olive.vercel.app/"}>Todo</Link></h6>
+                <p className='mb-4 text-neutral-400'>This Todo application is built using HTML, Tailwind CSS, JavaScript, React.js, and Redux Toolkit. The application allows users to efficiently manage their tasks with features such as adding, updating, and deleting todos. Users can also mark tasks as complete or incomplete with a simple check/uncheck function. The project highlights my ability to build responsive and interactive web applications with advanced state management.</p>
+                <div>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://todo-nine-olive.vercel.app/">Live</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Todo">Source Code</Link></span>
+                </div><br />
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>HTML</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Javascript</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux Toolkit</span>
+                </motion.div>
+            </div>
+
             <div key="calculator" className='mb-8 flex flex-wrap lg:justify-center'>
                 <motion.div
                 whileInView={{opacity:1, x:0}}
@@ -73,7 +100,7 @@ const Project = () => {
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
                 <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://amar-gupta-721.github.io/Calculator/"}>Calculator</Link></h6>
-                <p className='mb-4 text-neutral-400'>This calculator is a fully functional calculator built using HTML, CSS, and JavaScript. Designed to perform basic arithmetic operations, the calculator features a clean and intuitive interface. It allows users to perform addition, subtraction, multiplication, and division with ease. The project also includes interactive buttons and a responsive display screen that adjusts to various input values. The layout is styled using CSS, ensuring a visually appealing design, while JavaScript handles the logic and functionality, making the calculator both user-friendly and efficient.</p>
+                <p className='mb-4 text-neutral-400'>This calculator is a fully functional calculator built using HTML, CSS, and JavaScript. It is designed to perform basic arithmetic operations, the calculator features a clean and intuitive interface. It allows users to perform addition, subtraction, multiplication, and division with ease. The project also includes interactive buttons and a responsive display screen that adjusts to various input values. The layout is styled using CSS, ensuring a visually appealing design, while JavaScript handles the logic and functionality, making the calculator both user-friendly and efficient.</p>
                 <div>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://amar-gupta-721.github.io/Calculator/">Live</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Calculator">Source Code</Link></span>
@@ -84,31 +111,7 @@ const Project = () => {
                 </motion.div>
                 
             </div>
-            <div key="clock" className='mb-8 flex flex-wrap lg:justify-center'>
-                <motion.div 
-                whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:-100}}
-                transition={{duration:1}}
-                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
-                    <img className='shadow-md shadow-neutral-100' height={200} width={200} src={clock} alt="Clock" />
-                </motion.div>
-                <motion.div 
-                whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:100}}
-                transition={{duration:1}}
-                className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://amar-gupta-721.github.io/Clock-Project/"}>Clock</Link></h6>
-                <p className='mb-4 text-neutral-400'>This clock is a fully functional clock built using HTML, CSS, and JavaScript. The clock features a real-time display of hours, minutes, and seconds, with an elegant design that updates every second to reflect the current time. The project uses HTML to structure the clock elements, CSS for styling and layout, ensuring a clean and modern look, and JavaScript to handle the real-time updates and functionality.</p>
-                <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://amar-gupta-721.github.io/Clock-Project/">Live</Link></span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Clock-Project">Source Code</Link></span>
-                </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>HTML</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Javascript</span>
-                </motion.div>
-                
-            </div>
+            
         </div>
     </div>
   )

@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { GrResume } from "react-icons/gr";
 
 const Contact = () => {
   return (
@@ -50,7 +51,7 @@ const Contact = () => {
             <IoCall className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>Contact</h2>
-              <span>7905313689</span>
+              <span>+91 7905313689</span>
             </div>
           </div>
         </motion.div>
@@ -68,11 +69,22 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className='flex items-center'>
+          <div className='flex items-center mb-6'>
             <FaGithub className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>GitHub</h2>
               <span><a href="https://github.com/Amar-Gupta-721" className='text-blue-500 underline'>Visit my GitHub Profile</a></span>
+            </div>
+          </div>
+
+          <div className='flex items-center'>
+            <GrResume className='text-2xl'/>
+            <div className='ml-5 text-left'>
+              <h2 className='text-lg font-semibold'>Resume</h2>
+              <span><a 
+              href="/AmarGuptaResume.pdf"
+              target="_blank"
+              className='text-blue-500 underline'>My Resume</a></span>
             </div>
           </div>
         </motion.div>
