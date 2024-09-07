@@ -28,12 +28,12 @@ const Hero = () => {
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
-                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>Front End Developer</motion.span>
+                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>Full Stack Developer</motion.span>
                 <motion.p 
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Amar Gupta, currently pursuing a B.Tech in Computer Science and Engineering. I am passionate about frontend development and enjoy creating intuitive and responsive user interfaces. With experience in HTML, CSS, JavaScript, React, and other modern web technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
+                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Amar Gupta, currently pursuing a B.Tech in Computer Science and Engineering. I am passionate about Full Stack development and enjoy creating intuitive and responsive user interfaces. With experience in both Frontend and Backend technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
             </div>
             </div>
             {/*  */}
