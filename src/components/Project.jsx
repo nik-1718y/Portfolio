@@ -1,6 +1,6 @@
 import React from 'react'
 import Blog_Web_App from '../assets/Projects/Blog_Web_App.png'
-import calculator from '../assets/Projects/Calculator.png'
+import Sorting_Algorithm_Visualizer from '../assets/Projects/Sorting_Algorithm_Visualizer.png'
 import Todo from '../assets/Projects/Todo.png'
 import {motion} from 'framer-motion'
 import {Link} from 'react-router-dom'
@@ -29,36 +29,44 @@ const Project = () => {
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
                 <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://blogapp-mu-puce.vercel.app/"}>Blog Web App</Link></h6>
-                <p className='mb-4 text-neutral-400'>This Blog Web App is a dynamic platform that allows users to create, view, and engage with blogs.
-                This application is built with modern web technologies and offers a seamless user experience. Key features include :
-                <br /><br />
-                <span className="font-bold">Blog Creation:</span> Users can easily create and publish their own blogs, adding rich text, images, and other media to
-                share their thoughts and stories.
-                <br />
-                <span className="font-bold">Browse Blogs:</span> Explore blogs created by other users.
-                <br />
-                <span className="font-bold">User Authentication:</span> Secure sign-up and login processes ensure that user data is protected.
-                <br />
-                <span className="font-bold">Email Verification:</span> New users are required to verify their email addresses to ensure the authenticity of accounts
-                and enhance platform security.
-                <br />
-                <span className="font-bold">Forgot Password:</span> Convenient password recovery options allow users to reset their passwords via email, ensuring
-                they can always regain access to their accounts.</p>
+                <p className='mb-4 text-neutral-400'>This Blog Web App is built using Tailwind CSS, JavaScript, React.js, Redux Toolkit and Appwrite. The application enables users to create, read, update, and delete blog posts, as well as browse posts from other users. It includes secure user authentication, email verification, and password recovery features. This project demonstrates my ability to develop responsive, full-stack web applications with a focus on user experience and security.
+                </p>
                 <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://blogapp-mu-puce.vercel.app/">Live</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://blogapp-mu-puce.vercel.app/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Blog_Web_App">Source Code</Link></span>
                 </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>HTML</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Javascript</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React js</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Material UI</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux Toolkit</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Appwrite</span>
                 </motion.div>
                 
             </div>
+
+            <div key="Sorting_Algorithm_Visualizer" className='mb-8 flex flex-wrap lg:justify-center'>
+                <motion.div
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:-100}}
+                transition={{duration:1}}
+                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
+                    <img className='shadow-md shadow-neutral-800' height={200} width={200} src={Sorting_Algorithm_Visualizer} alt="Sorting_Algorithm_Visualizer" />
+                </motion.div>
+                <motion.div 
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:100}}
+                transition={{duration:1}}
+                className="w-full max-w-full lg:w-3/4">
+                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://sorting-visualizer-ten-xi.vercel.app/"}>Sorting Algorithm Visualizer</Link></h6>
+                <p className='mb-4 text-neutral-400'>This application is built using React.js and CSS. It allows users to visualize various sorting algorithms, such as Bubble Sort, Quick Sort, and Merge Sort, with real-time animations. Users can control the speed of the visualizations and adjust the size of the dataset. This project demonstrates my ability to build interactive web applications that simplify complex algorithms through visual representation..</p>
+                <div>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://sorting-visualizer-ten-xi.vercel.app/">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Sorting_Visualizer">Source Code</Link></span>
+                </div><br />
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                </motion.div>
+            </div>
+
             <div key="Todo" className='mb-8 flex flex-wrap lg:justify-center'>
                 <motion.div 
                 whileInView={{opacity:1, x:0}}
@@ -75,42 +83,16 @@ const Project = () => {
                 <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://todo-nine-olive.vercel.app/"}>Todo</Link></h6>
                 <p className='mb-4 text-neutral-400'>This Todo application is built using HTML, Tailwind CSS, JavaScript, React.js, and Redux Toolkit. The application allows users to efficiently manage their tasks with features such as adding, updating, and deleting todos. Users can also mark tasks as complete or incomplete with a simple check/uncheck function. The project highlights my ability to build responsive and interactive web applications with advanced state management.</p>
                 <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://todo-nine-olive.vercel.app/">Live</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://todo-nine-olive.vercel.app/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Todo">Source Code</Link></span>
                 </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>HTML</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Javascript</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>React js</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux Toolkit</span>
                 </motion.div>
             </div>
 
-            <div key="calculator" className='mb-8 flex flex-wrap lg:justify-center'>
-                <motion.div
-                whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:-100}}
-                transition={{duration:1}}
-                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
-                    <img className='shadow-md shadow-neutral-800' height={200} width={200} src={calculator} alt="Calculator" />
-                </motion.div>
-                <motion.div 
-                whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:100}}
-                transition={{duration:1}}
-                className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://amar-gupta-721.github.io/Calculator/"}>Calculator</Link></h6>
-                <p className='mb-4 text-neutral-400'>This calculator is a fully functional calculator built using HTML, CSS, and JavaScript. It is designed to perform basic arithmetic operations, the calculator features a clean and intuitive interface. It allows users to perform addition, subtraction, multiplication, and division with ease. The project also includes interactive buttons and a responsive display screen that adjusts to various input values. The layout is styled using CSS, ensuring a visually appealing design, while JavaScript handles the logic and functionality, making the calculator both user-friendly and efficient.</p>
-                <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://amar-gupta-721.github.io/Calculator/">Live</Link></span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Calculator">Source Code</Link></span>
-                </div><br />
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>HTML</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Javascript</span>
-                </motion.div>
-                
-            </div>
+            
             
         </div>
     </div>
