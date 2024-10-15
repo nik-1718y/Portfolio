@@ -1,4 +1,5 @@
 import React from 'react'
+import Ecommerce from '../assets/Projects/Ecommerce.png'
 import Blog_Web_App from '../assets/Projects/Blog_Web_App.png'
 import Sorting_Algorithm_Visualizer from '../assets/Projects/Sorting_Algorithm_Visualizer.png'
 import Todo from '../assets/Projects/Todo.png'
@@ -14,6 +15,40 @@ const Project = () => {
         transition={{duration:0.5}}
         className='my-20 text-center text-4xl'>Projects</motion.h2>
         <div>
+
+        <div 
+            key="ShopSmart_Ecommerce_Platform" className='mb-8 flex flex-wrap lg:justify-center'>
+                <motion.div
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:-100}}
+                transition={{duration:1}}
+                className='mt-2 mb-4 w-full lg:w-1/4 md:pr-5'>
+                    <img className='shadow-md shadow-neutral-100' height={200} width={200} src={Ecommerce} alt="ShopSmart_Ecommerce_Platform" />
+                </motion.div>
+                <motion.div 
+                whileInView={{opacity:1, x:0}}
+                initial={{opacity:0, x:100}}
+                transition={{duration:1}}
+                className="w-full max-w-full lg:w-3/4">
+                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://shop-smart-qs29.onrender.com/"}>ShopSmart Ecommerce Platform</Link></h6>
+                <p className='mb-4 text-neutral-400'>ShopSmart is a full-featured ecommerce web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS and ShadCN UI for sleek, responsive design. The project implements Redux Toolkit for state management and JWT for secure authentication and authorization. Cloudinary is used for efficient media storage, and PayPal integration ensures smooth online transactions. With features like product browsing, cart management, and order tracking, ShopSmart offers a seamless user experience across all devices, showcasing my skills in both frontend and backend development.
+                </p>
+                <div>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://shop-smart-qs29.onrender.com/">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/ShopSmart-A-Full-Stack-Ecommerce-Website-MERN-">Source Code</Link></span>
+                </div><br />
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>NodeJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ExpressJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>MongoDB</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>JWT</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Cloudinary</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>PayPal</span>
+                </motion.div>
+            </div>
+
             <div 
             key="blog_web_app" className='mb-8 flex flex-wrap lg:justify-center'>
                 <motion.div
@@ -37,7 +72,7 @@ const Project = () => {
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux Toolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Appwrite</span>
                 </motion.div>
                 
@@ -88,11 +123,9 @@ const Project = () => {
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Redux Toolkit</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
                 </motion.div>
             </div>
-
-            
             
         </div>
     </div>
