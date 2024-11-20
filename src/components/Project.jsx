@@ -92,7 +92,7 @@ const Project = () => {
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
                 <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://sorting-visualizer-ten-xi.vercel.app/"}>Sorting Algorithm Visualizer</Link></h6>
-                <p className='mb-4 text-neutral-400'>This application is built using React.js and CSS. It allows users to visualize various sorting algorithms, such as Bubble Sort, Quick Sort, and Merge Sort, with real-time animations. Users can control the speed of the visualizations and adjust the size of the dataset. This project demonstrates my ability to build interactive web applications that simplify complex algorithms through visual representation..</p>
+                <p className='mb-4 text-neutral-400'>This application is built using React.js and CSS. It allows users to visualize various sorting algorithms, such as Bubble Sort, Quick Sort, and Merge Sort, with real-time animations. Users can control the speed of the visualizations and adjust the size of the dataset. This project demonstrates my ability to build interactive web applications that simplify complex algorithms through visual representation.</p>
                 <div>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://sorting-visualizer-ten-xi.vercel.app/">Live Demo</Link></span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Sorting_Visualizer">Source Code</Link></span>
