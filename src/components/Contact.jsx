@@ -7,6 +7,7 @@ import { IoCall } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
+import { SiLeetcode } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -77,7 +78,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className='flex items-center'>
+          <div className='flex items-center mb-6'>
             <GrResume className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>Resume</h2>
@@ -85,6 +86,14 @@ const Contact = () => {
               href="/AmarGuptaResume.pdf"
               target="_blank"
               className='text-blue-500 underline'>My Resume</a></span>
+            </div>
+          </div>
+
+          <div className='flex items-center mb-6'>
+            <SiLeetcode className='text-2xl'/>
+            <div className='ml-5 text-left'>
+              <h2 className='text-lg font-semibold'>LeetCode</h2>
+              <span><a href="https://leetcode.com/u/amargupta721/" className='text-blue-500 underline'>Visit my LeetCode Profile</a></span>
             </div>
           </div>
         </motion.div>
