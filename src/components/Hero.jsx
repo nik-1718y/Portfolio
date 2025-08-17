@@ -33,7 +33,7 @@ const Hero = () => {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Amar Gupta, currently pursuing a B.Tech in Computer Science and Engineering. I am passionate about Full Stack development and enjoy creating intuitive and responsive user interfaces. With experience in both Frontend and Backend technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
+                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Amar Gupta, a B.Tech graduate in Computer Science and Engineering. I am passionate about Full Stack development and enjoy creating intuitive and responsive user interfaces. With experience in both Frontend and Backend technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
             </div>
             </div>
             {/*  */}

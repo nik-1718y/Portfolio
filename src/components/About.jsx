@@ -27,7 +27,7 @@ const About = () => {
             transition={{duration:0.5}}
             className='pb-4 w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
-                        <p className='my-2 max-w-xl'>Hello! I'm Amar Gupta, currently pursuing a B.Tech in Computer Science and Engineering with a passion for full-stack development. I build dynamic, responsive web applications using HTML, CSS, JavaScript, React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I'm also skilled in state management with Redux Toolkit and proficient in Java. <br />
+                        <p className='my-2 max-w-xl'>Hello! I'm Amar Gupta, a B.Tech graduate in Computer Science and Engineering with a passion for full-stack development. I build dynamic, responsive web applications using HTML, CSS, JavaScript, React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I'm also skilled in state management with Redux Toolkit and proficient in Java. <br />
                         I am dedicated to my work and eager to take on new challenges with a positive attitude. My strengths include a strong willingness to learn and a proactive approach to challenges. I am constantly seeking opportunities to grow and make meaningful contributions.
                         </p>
                         
