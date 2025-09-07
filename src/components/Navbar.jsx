@@ -54,7 +54,7 @@ export default function Navbar() {
     <header className='backdrop-blur-lg shadow-sm shadow-neutral-900 z-10 fixed top-0 left-0 w-full px-14 sm:px-20 pt-2 sm:pt-4 md:pt-6'>
       <nav className='flex'>
         <div className='mr-4'>
-          <img src={Logo} height={60} width={60} alt="Logo" />
+          {/* <img src={Logo} height={60} width={60} alt="Logo" /> */}
         </div>
 
         <ul className='hidden md:flex ml-auto py-2'>
