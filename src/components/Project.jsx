@@ -63,17 +63,21 @@ const Project = () => {
                 initial={{opacity:0, x:100}}
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://blogapp-mu-puce.vercel.app/"}>Blog Web App</Link></h6>
-                <p className='mb-4 text-neutral-400'>This Blog Web App is built using Tailwind CSS, JavaScript, React.js, Redux Toolkit and Appwrite. The application enables users to create, read, update, and delete blog posts, as well as browse posts from other users. It includes secure user authentication, email verification, and password recovery features. This project demonstrates my ability to develop responsive, full-stack web applications with a focus on user experience and security.
+                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://bloged-6pq09ly0o-niks-projects-1e287394.vercel.app/"}>Blog Web App</Link></h6>
+                <p className='mb-4 text-neutral-400'>This Blog Web App is built using Tailwind CSS, JavaScript, React.js, Redux Toolkit, Node.js, MongoDB. The application enables users to create, read, update, and delete blog posts, as well as browse posts from other users. It includes secure user authentication, email verification, and password recovery features. This project demonstrates my ability to develop responsive, full-stack web applications with a focus on user experience and security.
                 </p>
                 <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://blogapp-mu-puce.vercel.app/">Live Demo</Link></span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Blog_Web_App">Source Code</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://bloged-6pq09ly0o-niks-projects-1e287394.vercel.app/">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/nik-1718y/Bloged">Source Code</Link></span>
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Tailwind CSS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>NodeJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ExpressJS</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>MongoDB</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReduxToolkit</span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>Appwrite</span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>JWT</span>
                 </motion.div>
                 
             </div>
@@ -91,11 +95,11 @@ const Project = () => {
                 initial={{opacity:0, x:100}}
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://sorting-visualizer-ten-xi.vercel.app/"}>Sorting Algorithm Visualizer</Link></h6>
+                <h6 className='mb-2 font-semibold text-xl underline'><Link to={"https://youtube-clone-i44ecsly8-niks-projects-1e287394.vercel.app"}>Youtube clone</Link></h6>
                 <p className='mb-4 text-neutral-400'>This application is built using React.js and CSS. It allows users to visualize various sorting algorithms, such as Bubble Sort, Quick Sort, and Merge Sort, with real-time animations. Users can control the speed of the visualizations and adjust the size of the dataset. This project demonstrates my ability to build interactive web applications that simplify complex algorithms through visual representation.</p>
                 <div>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://sorting-visualizer-ten-xi.vercel.app/">Live Demo</Link></span>
-                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/Amar-Gupta-721/Sorting_Visualizer">Source Code</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://youtube-clone-i44ecsly8-niks-projects-1e287394.vercel.app">Live Demo</Link></span>
+                <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-50 hover:bg-white hover:text-neutral-900'><Link to="https://github.com/nik-1718y/youtube-clone">Source Code</Link></span>
                 </div><br />
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>CSS</span>
                 <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>ReactJS</span>

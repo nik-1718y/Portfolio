@@ -23,7 +23,7 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-                className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl pt-3'>Amar Gupta</motion.h1>
+                className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl pt-3'>Nikhil Kumar yadav</motion.h1>
                 <motion.span 
                 variants={container(0.5)}
                 initial="hidden"
@@ -33,7 +33,7 @@ const Hero = () => {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Amar Gupta, a B.Tech graduate in Computer Science and Engineering. I am passionate about Full Stack development and enjoy creating intuitive and responsive user interfaces. With experience in both Frontend and Backend technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
+                className='my-2 max-w-xl py-6 font-light tracking-tighter'>Hello! I'm Nikhil Kumar yadav, a B.Tech graduate in Computer Science and Engineering. I am passionate about Full Stack development and enjoy creating intuitive and responsive user interfaces. With experience in both Frontend and Backend technologies, I strive to build dynamic and user-friendly web applications.</motion.p>
             </div>
             </div>
             {/*  */}

@@ -30,7 +30,7 @@ const Contact = () => {
               <FaUser className='text-2xl'/>
               <div className='ml-5 text-left'>
                 <h2 className='text-lg font-semibold'>Name</h2>
-                <span>Amar Gupta</span>
+                <span>Nikhil kumar yadav</span>
               </div>
             </div>
           </div>
@@ -38,21 +38,21 @@ const Contact = () => {
             <FaLocationDot className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>Address</h2>
-              <span>Lucknow, Uttar Pradesh</span>
+              <span>Maharajganj, Uttar Pradesh</span>
             </div>
           </div>
           <div className='flex items-center mb-6'>
             <MdEmail className='text-2xl'/>
             <div className="ml-5 text-left">
               <h2 className='text-lg font-semibold'>Email</h2>
-              <span><a href="mailto:amargupta721@gmail.com" className='text-blue-500 underline'>amargupta721@gmail.com</a></span>
+              <span><a href="mailto:nikhilyadavmrj470@gmail.com" className='text-blue-500 underline'>nikhilyadavmrj470@gmail.com</a></span>
             </div>
           </div>
           <div className='flex items-center mb-6'>
             <IoCall className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>Contact</h2>
-              <span>+91 7905313689</span>
+              <span>+91 9918332990</span>
             </div>
           </div>
         </motion.div>
@@ -66,7 +66,7 @@ const Contact = () => {
               <FaLinkedin className='text-2xl'/>
               <div className='ml-5 text-left'>
                 <h2 className='text-lg font-semibold'>LinkedIn</h2>
-                <span><a href="https://www.linkedin.com/in/amar-gupta-36a3b8176/" target='blank' className='text-blue-500 underline'>Visit my LinkedIn Profile</a></span>
+                <span><a href="https://www.linkedin.com/in/nikhil-kumar-yadav-22b916290/" target='blank' className='text-blue-500 underline'>Visit my LinkedIn Profile</a></span>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Contact = () => {
             <FaGithub className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>GitHub</h2>
-              <span><a href="https://github.com/Amar-Gupta-721" target='blank' className='text-blue-500 underline'>Visit my GitHub Profile</a></span>
+              <span><a href="https://github.com/nik-1718y" target='blank' className='text-blue-500 underline'>Visit my GitHub Profile</a></span>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
             <SiLeetcode className='text-2xl'/>
             <div className='ml-5 text-left'>
               <h2 className='text-lg font-semibold'>LeetCode</h2>
-              <span><a href="https://leetcode.com/u/amargupta721/" target='blank' className='text-blue-500 underline'>Visit my LeetCode Profile</a></span>
+              <span><a href="https://leetcode.com/u/N_17k/" target='blank' className='text-blue-500 underline'>Visit my LeetCode Profile</a></span>
             </div>
           </div>
         </motion.div>
