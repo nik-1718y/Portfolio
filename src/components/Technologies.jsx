@@ -10,6 +10,9 @@ import { SiRedux } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoPhp } from "react-icons/bi";
+import { SiMysql } from "react-icons/si";
+
 
 const Technologies = () => {
     const iconMotions = (duration)=>({
@@ -111,6 +114,20 @@ const Technologies = () => {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <BiLogoMongodb className='text-7xl text-green-700'/>
             </motion.div>
+            <motion.div 
+  variants={iconMotions(2)}
+  initial="initial"
+  animate="animate"
+  className='rounded-2xl border-4 border-neutral-800 p-4'>
+    <BiLogoPhp className='text-7xl text-blue-600'/>
+</motion.div>
+<motion.div 
+  variants={iconMotions(2)}
+  initial="initial"
+  animate="animate"
+  className='rounded-2xl border-4 border-neutral-800 p-4'>
+    <SiMysql className='text-7xl text-sky-500'/>
+</motion.div>
         </motion.div>
     </div>
   )

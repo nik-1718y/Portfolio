@@ -63,7 +63,7 @@ const Project = () => {
                 initial={{opacity:0, x:100}}
                 transition={{duration:1}}
                 className="w-full max-w-full lg:w-3/4">
-                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://bloged-6pq09ly0o-niks-projects-1e287394.vercel.app/"}>Blog Web App</Link></h6>
+                <h6 className='mb-2 font-semibold underline text-xl'><Link to={"https://bloged-x12o.vercel.app/"}>Blog Web App</Link></h6>
                 <p className='mb-4 text-neutral-400'>This Blog Web App is built using Tailwind CSS, JavaScript, React.js, Redux Toolkit, Node.js, MongoDB. The application enables users to create, read, update, and delete blog posts, as well as browse posts from other users. It includes secure user authentication, email verification, and password recovery features. This project demonstrates my ability to develop responsive, full-stack web applications with a focus on user experience and security.
                 </p>
                 <div>
